@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "name": "My Plugin Repository",
+  "description": "Example plugin repository from the Revenge plugin template.",
+  "plugins": {
+    "com.liminal.motion": {
+      "name": "Liminal Motion",
+      "description": "A liminal-themed visual customization plugin for Revenge.",
+      "author": "Liminal Motion",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://gda75981-spec.github.io/Liminal-Motion/pool/com.liminal.motion@1.0.0.zip",
+          "sha256": "cd91e45941330da83c87791e3995e34b3a6ac4518b6e587b739d791301d4180d",
+          "size": 91200,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.2.1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.api.themes": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
